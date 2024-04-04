@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="26 Hypixel Skyblock Items:jar">
+    <output-path>$USER_HOME$/out/artifacts/26_Hypixel_Skyblock_Items_jar</output-path>
+    <root id="archive" name="26 Hypixel Skyblock Items.jar">
+      <element id="module-output" name="26 Hypixel Skyblock Items" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,30 @@
+name: InvSee
+main: Main.Main
+author: OfficerYoda
+version: 3.0
+api-version: 1.18
+depend: [SignApi]
+commands:
+    invsee:
+      aliases: [is]
+      description: See and edit the inventory of others.
+    ec:
+      aliases: [enderchest]
+      description: See and edit your enderchest or the enderchest of others.
+    craft:
+      description: Opens a Craftingtabel GUI.
+    editsign:
+      default: op
+      aliases: [es]
+      description: Edits a Sign.
+
+permissions:
+  invsee.*:
+    description: Gives all permissions for InvSee
+    default: op
+    children:
+      invsee.edit:
+        description: Allows the player to edit signs by right clicking them
+        children:
+          invsee.edit.sign:
+            description: Allows the player to remove items from their own inventory
